@@ -42,6 +42,14 @@
       <Content Include="allureConfig.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
+      <None Remove="TestData\MilestoneTestData.json" />
+      <Content Include="TestData\MilestoneTestData.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="TestData\SiteTestData.json" />
+      <Content Include="TestData\SiteTestData.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>
