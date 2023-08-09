@@ -41,8 +41,10 @@ public class UserBuilder
 
     public UserBuilder SetAdminUser()
     {
-        user.Username = Configurator.Admin.Username;
-        user.Password = Configurator.Admin.Password;
+        //user.Username = Configurator.Admin.Username;
+       // user.Password = Configurator.Admin.Password;
+        user.Username = Environment.GetEnvironmentVariable("USERNAME");
+        user.Password = Environment.GetEnvironmentVariable("PASSWORD");
         return this;
     }
 
