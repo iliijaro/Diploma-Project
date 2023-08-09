@@ -2,7 +2,7 @@ namespace DiplomaProject.Utilities.Helpers;
 
 public static class FakerData
 {
-    private static Faker Faker = new Faker("en");
+    private static readonly Faker Faker = new Faker("en");
 
     public static string GenerateRandomString(int charactersAmount)
     {

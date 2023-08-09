@@ -2,15 +2,15 @@ namespace DiplomaProject.Pages;
 
 public class LoginPage : BasePage
 {
-    private TextField UserName = new (By.Id("name"));
-    private TextField Password = new (By.Id("password"));
+    private readonly TextField UserName = new (By.Id("name"));
+    private readonly TextField Password = new (By.Id("password"));
     
-    private Button LoginButton = new (By.Id("button_primary"));
-    private Button KeepMeCheckbox = new(".loginpage-checkmark");
+    private readonly Button LoginButton = new (By.Id("button_primary"));
+    private readonly Button KeepMeCheckbox = new(".loginpage-checkmark");
     
-    private Window ErrorMessage = new(By.ClassName("error-alert"));
+    private readonly Window ErrorMessage = new(By.ClassName("error-alert"));
     
-    private string EndPoint = "index.php?/auth/login/";
+    private readonly string EndPoint = "index.php?/auth/login/";
 
 
     public LoginPage(IWebDriver driver,  WaitService wait) : base(driver, wait) { }

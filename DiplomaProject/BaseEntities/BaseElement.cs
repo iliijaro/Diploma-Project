@@ -8,12 +8,12 @@ public class BaseElement
     
     private By Locator { get; set; }
 
-    public BaseElement(By locator)
+    protected BaseElement(By locator)
     {
         Locator = locator;
     }
 
-    public BaseElement(string locator)
+    protected BaseElement(string locator)
     {
         Locator = By.CssSelector(locator);
     }

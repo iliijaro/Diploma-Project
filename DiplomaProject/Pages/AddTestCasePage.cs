@@ -2,19 +2,19 @@ namespace DiplomaProject.Pages;
 
 public class AddTestCasePage : BasePage
 {
-    private Input LoadLocator = new("input[type=file]");
+    private readonly Input LoadLocator = new("input[type=file]");
 
-    private UIElement BigAddIcon = new(By.Id("entityAttachmentListEmptyIcon"));
+    private readonly UiElement BigAddIcon = new(By.Id("entityAttachmentListEmptyIcon"));
 
-    private TextField Title = new(By.XPath("//input[@name='title' and @id='title']"));
-    private TextField Preconditions = new(By.XPath("//div[@id='custom_preconds_display']"));
-    private TextField Steps = new(By.XPath("//div[@id='custom_steps_display']"));
-    private TextField Expected = new(By.XPath("//div[@id='custom_expected_display']"));
-    private TextField Reference = new(By.XPath("//input[@name='refs']"));
+    private readonly TextField Title = new(By.XPath("//input[@name='title' and @id='title']"));
+    private readonly TextField Preconditions = new(By.XPath("//div[@id='custom_preconds_display']"));
+    private readonly TextField Steps = new(By.XPath("//div[@id='custom_steps_display']"));
+    private readonly TextField Expected = new(By.XPath("//div[@id='custom_expected_display']"));
+    private readonly TextField Reference = new(By.XPath("//input[@name='refs']"));
 
     private Button AddTestCase = new(By.XPath("//button[@id='accept']"));
 
-    private string EndPoint = "index.php?/cases/add/1";
+    private readonly string EndPoint = "index.php?/cases/add/1";
 
     public AddTestCasePage(IWebDriver driver, WaitService wait) : base(driver, wait)
     {

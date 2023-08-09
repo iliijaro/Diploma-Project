@@ -4,7 +4,9 @@ public class MilestoneTest : BaseApiTest
 {
     private static readonly Logger _logger = LogManager.GetCurrentClassLogger();
 
-    [Test]
+    [Test(Description = "NFE POST api_test")]
+    [Description("Add new Milestone using all required data")]
+    [Category("API")]
     public void AddMilestoneTest()
     {
         var expectedMilestone = TestDataHelper.AddTestMilestone("MilestoneTestData.json");
@@ -19,7 +21,9 @@ public class MilestoneTest : BaseApiTest
         Assert.That(actualMilestone.Name, Is.EqualTo(expectedMilestone.Name));
     }
 
-    [Test]
+    [Test(Description = "AFE GET api_test")]
+    [Description("Get Milestone using incorrect data (Id)")]
+    [Category("API")]
     public void GetInvalidMilestoneTest()
     {
         var actualMilestone = _milestoneService.GetMilestoneAsync(0);

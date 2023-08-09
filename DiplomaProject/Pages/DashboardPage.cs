@@ -2,13 +2,13 @@ namespace DiplomaProject.Pages;
 
 public class DashboardPage : BasePage
 {
-    private TextField Search = new(By.Id("search_query"));
+    private readonly TextField Search = new(By.Id("search_query"));
 
     private Button AddProjectButton = new(By.ClassName("sidebar-button"));
     
-    private Window ErrorWindow = new(By.Id("ui-dialog-title-messageDialog"));
+    private readonly Window ErrorWindow = new(By.Id("ui-dialog-title-messageDialog"));
     
-    private string EndPoint = "index.php?/dashboard";
+    private readonly string EndPoint = "index.php?/dashboard";
 
     public DashboardPage(IWebDriver driver,  WaitService wait) : base(driver, wait) { }
     
