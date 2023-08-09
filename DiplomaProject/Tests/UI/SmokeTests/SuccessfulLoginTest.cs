@@ -6,7 +6,7 @@ public class SuccessfulLoginTest : BaseTest
     [Test, Order(1), Category("Smoke test"), 
      Description("Test case to check that user can successfully log in ")]
     [AllureSeverity(SeverityLevel.blocker)]
-    [AllureSuite("Negative Cases Suit")]
+    [AllureSuite("Smoke Test Cases Suit")]
     [AllureSubSuite("GUI")]
     [AllureTms("23")]
     [AllureTag("Smoke")]

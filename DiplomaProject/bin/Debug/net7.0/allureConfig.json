@@ -1,6 +1,6 @@
 {
   "allure": {
-    "directory": "/Users/ilyayarosh/RiderProjects/Diploma/DiplomaProject/bin/Debug/net7.0/allure-results",
+    "directory": "allure-results",
     "links": [
       "{links}",
       "https://ilyayaroshdiploma.atlassian.net/browse/{issue}",
