@@ -1,0 +1,100 @@
+{
+  "uuid": "a19da821-f11f-4b55-81f5-dd3ce792becb-tr-0-1017",
+  "historyId": "DiplomaProject.Tests.UI.PositiveTests.TestCaseDeleteTest.CheckThatTestCaseIsDeleted(54)",
+  "fullName": "DiplomaProject.Tests.UI.PositiveTests.TestCaseDeleteTest.CheckThatTestCaseIsDeleted(54)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "DiplomaProject.Tests.UI.PositiveTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckThatTestCaseIsDeleted"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCaseDeleteTest"
+    },
+    {
+      "name": "tag",
+      "value": "Positive cases"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Positive Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "28",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/28",
+      "type": "tms"
+    }
+  ],
+  "name": "CheckThatTestCaseIsDeleted(54)",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckThatTestCaseIsDeleted(54)"
+  },
+  "stage": "finished",
+  "description": "Test case to check that the TestCase is deleted\n",
+  "steps": [
+    {
+      "name": "CheckThatTestCaseIsDeleted(54)",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5f1e4d3a1b10425ebfa13e62f3ace518-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691586935332,
+      "stop": 1691586945451
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "54"
+    }
+  ],
+  "start": 1691586935332,
+  "stop": 1691586945452
+}

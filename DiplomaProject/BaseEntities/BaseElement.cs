@@ -4,7 +4,7 @@ public class BaseElement
 {
     private Browser Browser => Browser.Instance;
     private WaitService Wait { get; set; }
-    private Actions Actions { get; set; }
+    private Actions Actions { get; set; } 
     
     private By Locator { get; set; }
 
@@ -43,5 +43,13 @@ public class BaseElement
         Actions = new Actions(Browser.Driver);
         var hyperlinkElement = Browser.Driver.FindElement(Locator);
         Actions.MoveToElement(hyperlinkElement).Perform();
+    }
+    
+    public void HoverAndClick()
+    {
+        Actions = new Actions(Browser.Driver);
+        var hyperlinkElement = Browser.Driver.FindElement(Locator);
+        Actions.MoveToElement(hyperlinkElement).Perform();        
+        Click();
     }
 }

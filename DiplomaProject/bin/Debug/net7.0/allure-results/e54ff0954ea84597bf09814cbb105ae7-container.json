@@ -1,0 +1,44 @@
+{
+  "uuid": "6aa42333-f2e6-44e2-a06e-c943b48ecb8c-tc-0-1012",
+  "name": "DiplomaProject.Tests.UI.PositiveTests.JiraPopUpDisplayedTest.JiraPopupShows",
+  "children": [
+    "dab2121d-9b71-4c78-9370-ebe7ceed98a4-tr-0-1013"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691583638624,
+      "stop": 1691583638624
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691583638625,
+      "stop": 1691583638625
+    }
+  ],
+  "links": [],
+  "start": 1691583628906,
+  "stop": 1691583638626
+}

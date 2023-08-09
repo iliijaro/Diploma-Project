@@ -1,0 +1,44 @@
+{
+  "uuid": "dbd1330a-2b03-4219-96d0-8fc84304afdc-tc-0-1009",
+  "name": "DiplomaProject.Tests.UI.PositiveTests.FileLoadedTest.CheckThatFileIsLoaded(\"ImageTest.PNG\")",
+  "children": [
+    "25d50c37-ff08-4c6d-be46-8b7f924bf837-tr-0-1010"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691583627061,
+      "stop": 1691583627061
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691583627061,
+      "stop": 1691583627061
+    }
+  ],
+  "links": [],
+  "start": 1691583618691,
+  "stop": 1691583627062
+}

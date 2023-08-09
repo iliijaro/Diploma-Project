@@ -1,0 +1,44 @@
+{
+  "uuid": "b2b64687-51f0-45d7-a133-c65902865145-tc-0-1002",
+  "name": "DiplomaProject.Tests.UI.NegativeTests.InvalidCredentialsTest.CheckInvalidCredentials",
+  "children": [
+    "39387526-7c07-413d-97ed-fd08edbea917-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691584433459,
+      "stop": 1691584433459
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691584433459,
+      "stop": 1691584433459
+    }
+  ],
+  "links": [],
+  "start": 1691584429135,
+  "stop": 1691584433460
+}

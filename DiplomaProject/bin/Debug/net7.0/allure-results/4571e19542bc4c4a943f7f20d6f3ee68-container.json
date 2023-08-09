@@ -1,0 +1,44 @@
+{
+  "uuid": "8b2e8078-04ed-4ee4-bc00-b0c270f3bedd-tc-0-1000",
+  "name": "DiplomaProject.Tests.UI.PositiveTests.BoundaryValuesTest.TitleBoundaryValues(249)",
+  "children": [
+    "57a55169-b352-4f0b-a558-d0dbbce28bec-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691585891882,
+      "stop": 1691585891882
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691585891882,
+      "stop": 1691585891882
+    }
+  ],
+  "links": [],
+  "start": 1691585881278,
+  "stop": 1691585891884
+}

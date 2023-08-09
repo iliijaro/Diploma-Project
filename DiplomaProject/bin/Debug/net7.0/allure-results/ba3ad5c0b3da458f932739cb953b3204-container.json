@@ -1,0 +1,44 @@
+{
+  "uuid": "ed4248b9-5783-43bc-9477-7846c3cde67a-tc-0-1000",
+  "name": "DiplomaProject.Tests.UI.SmokeTests.SuccessfulLoginTest.SuccessfulLogIn",
+  "children": [
+    "7b2bb2b5-d14a-42b1-9b67-e556ba6e0779-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691583666511,
+      "stop": 1691583666511
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691583666511,
+      "stop": 1691583666511
+    }
+  ],
+  "links": [],
+  "start": 1691583660608,
+  "stop": 1691583666512
+}
