@@ -4,7 +4,7 @@ public class TestCasesPage : BasePage
 {
     private readonly TextField Title = new("input.form-control-inline");
     
-    private readonly UIElement CaseTitle = new(By.XPath("//span[@class='title']"));
+    private readonly UiElement CaseTitle = new(By.XPath("//span[@class='title']"));
 
     private readonly Button AddTestCaseLink = new("a.link[onclick*='App.Cases.add']");
     private readonly Button AddTestCaseButton = new(By.Id("sidebar-cases-add"));
@@ -53,7 +53,6 @@ public class TestCasesPage : BasePage
     {
         LoggerHelper.LogEventAll("'Add Test Case' link button is clicked");
         Wait.GetVisibleElement(By.CssSelector("a.link[onclick*='App.Cases.add']"));
-        
         AddTestCaseLink.HoverAndClick();
     }
     

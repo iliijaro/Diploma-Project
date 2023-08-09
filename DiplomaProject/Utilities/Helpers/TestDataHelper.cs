@@ -2,11 +2,11 @@ namespace DiplomaProject.Utilities.Helpers;
 
 public static class TestDataHelper
 {
-    public static Milestone AddTestMilestone(string FileName)
+    public static Milestone AddTestMilestone(string fileName)
     {
         var basePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
         var json = File.ReadAllText(basePath + Path.DirectorySeparatorChar + "TestData"
-                                    + Path.DirectorySeparatorChar + FileName);
+                                    + Path.DirectorySeparatorChar + fileName);
         var jsonObject = JObject.Parse(json);
 
         var milestone = new Milestone()
@@ -18,11 +18,11 @@ public static class TestDataHelper
         return milestone;
     }
 
-    public static Suite AddTestSuite(string FileName)
+    public static Suite AddTestSuite(string fileName)
     {
         var basePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
         var json = File.ReadAllText(basePath + Path.DirectorySeparatorChar + "TestData"
-                                    + Path.DirectorySeparatorChar + FileName);
+                                    + Path.DirectorySeparatorChar + fileName);
         var jsonObject = JObject.Parse(json);
 
         var suite = new Suite

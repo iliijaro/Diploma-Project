@@ -2,14 +2,14 @@ namespace DiplomaProject.Pages;
 
 public class MilestonesPage : BasePage
 {
-    private TextField Name = new(By.Id("name"));
-    private TextField Description = new(By.Id("description_display"));
-    private TextField Reference = new(By.Id("reference"));
+    private readonly TextField Name = new(By.Id("name"));
+    private readonly TextField Description = new(By.Id("description_display"));
+    private readonly TextField Reference = new(By.Id("reference"));
     
-    private UIElement SuccessMessage = new(".message-success");
+    private readonly UiElement SuccessMessage = new(".message-success");
 
-    private Button AddMilestoneButton = new(By.Id("navigation-milestones-add"));
-    private Button CreateMilestoneButton = new(By.Id("accept"));
+    private readonly Button AddMilestoneButton = new(By.Id("navigation-milestones-add"));
+    private readonly Button CreateMilestoneButton = new(By.Id("accept"));
     
     private readonly string EndPoint = "index.php?/milestones/overview/1";
 

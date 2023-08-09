@@ -1,12 +1,12 @@
 namespace DiplomaProject.Wrappers;
 
-public class UIElement : BaseElement
+public class UiElement : BaseElement
 {
-    public UIElement(By locator) : base(locator)
+    public UiElement(By locator) : base(locator)
     {
     }
 
-    public UIElement(string locator) : base(locator)
+    public UiElement(string locator) : base(locator)
     {
     }
 }
