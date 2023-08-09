@@ -12,7 +12,7 @@ public class TestCaseDeleteTest : BaseTest
     [AllureTms("28")]
     [AllureTag("Regression")]
 
-    [TestCase(56)]
+    [TestCase(57)]
     public void CheckThatTestCaseIsDeleted(int id)
     {
         LoginPage.LogIn(UserAdmin);
