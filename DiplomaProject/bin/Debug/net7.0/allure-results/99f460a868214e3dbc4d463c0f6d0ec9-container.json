@@ -1,0 +1,44 @@
+{
+  "uuid": "af0c2f9b-4460-431d-a9f6-9c5ee567e4dc-tc-0-1000",
+  "name": "DiplomaProject.Tests.UI.NegativeTests.BugReproducingTest.ReproduceBugWithWrongWindow",
+  "children": [
+    "ab85c9d7-0a17-407c-b35a-13669fddc3b6-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691584427068,
+      "stop": 1691584427068
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691584427068,
+      "stop": 1691584427068
+    }
+  ],
+  "links": [],
+  "start": 1691584420696,
+  "stop": 1691584427109
+}

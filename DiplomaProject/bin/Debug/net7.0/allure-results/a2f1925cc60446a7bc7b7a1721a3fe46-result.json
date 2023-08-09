@@ -1,0 +1,95 @@
+{
+  "uuid": "7611b756-3e32-4134-a2c3-6b0899328a50-tr-0-1008",
+  "historyId": "DiplomaProject.Tests.UI.PositiveTests.DialogueWindowTest.CheckThatDialogueWindowIsOpened",
+  "fullName": "DiplomaProject.Tests.UI.PositiveTests.DialogueWindowTest.CheckThatDialogueWindowIsOpened",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "DiplomaProject.Tests.UI.PositiveTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckThatDialogueWindowIsOpened"
+    },
+    {
+      "name": "testClass",
+      "value": "DialogueWindowTest"
+    },
+    {
+      "name": "tag",
+      "value": "Positive cases"
+    },
+    {
+      "name": "severity",
+      "value": "trivial"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Positive Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "38",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/38",
+      "type": "tms"
+    }
+  ],
+  "name": "CheckThatDialogueWindowIsOpened",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CheckThatDialogueWindowIsOpened"
+  },
+  "stage": "finished",
+  "description": "Test case to check that 'Subject' Dialogue Window is opened\n",
+  "steps": [
+    {
+      "name": "CheckThatDialogueWindowIsOpened",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "74ef18093fe243019573f7b2e1573e25-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691586898275,
+      "stop": 1691586903997
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691586898275,
+  "stop": 1691586903997
+}

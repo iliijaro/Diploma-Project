@@ -1,0 +1,44 @@
+{
+  "uuid": "9ac923ec-2180-409d-8505-66483c291c91-tc-0-1007",
+  "name": "DiplomaProject.Tests.UI.PositiveTests.DialogueWindowTest.CheckThatDialogueWindowIsOpened",
+  "children": [
+    "7611b756-3e32-4134-a2c3-6b0899328a50-tr-0-1008"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691586903996,
+      "stop": 1691586903996
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691586903996,
+      "stop": 1691586903996
+    }
+  ],
+  "links": [],
+  "start": 1691586898275,
+  "stop": 1691586903997
+}

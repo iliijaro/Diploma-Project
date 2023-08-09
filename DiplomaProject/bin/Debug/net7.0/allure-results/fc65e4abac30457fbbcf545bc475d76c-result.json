@@ -1,0 +1,108 @@
+{
+  "uuid": "57a55169-b352-4f0b-a558-d0dbbce28bec-tr-0-1002",
+  "historyId": "DiplomaProject.Tests.UI.PositiveTests.BoundaryValuesTest.TitleBoundaryValues(249)",
+  "fullName": "DiplomaProject.Tests.UI.PositiveTests.BoundaryValuesTest.TitleBoundaryValues(249)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "DiplomaProject.Tests.UI.PositiveTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TitleBoundaryValues"
+    },
+    {
+      "name": "testClass",
+      "value": "BoundaryValuesTest"
+    },
+    {
+      "name": "tag",
+      "value": "Positive cases"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Positive Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [
+    {
+      "name": "41",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/41",
+      "type": "tms"
+    }
+  ],
+  "name": "TitleBoundaryValues(249)",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at DiplomaProject.Pages.TestCasesPage.ClickAddCaseLink() in /Users/ilyayarosh/RiderProjects/Diploma/DiplomaProject/Pages/TestCasesPage.cs:line 58\n   at DiplomaProject.Pages.TestCasesPage.CreateTestCaseByTitle(String name) in /Users/ilyayarosh/RiderProjects/Diploma/DiplomaProject/Pages/TestCasesPage.cs:line 79\n   at DiplomaProject.Tests.UI.PositiveTests.BoundaryValuesTest.TitleBoundaryValues(Int32 n) in /Users/ilyayarosh/RiderProjects/Diploma/DiplomaProject/Tests/UI/PositiveTests/BoundaryValuesTest.cs:line 23\n   at InvokeStub_BoundaryValuesTest.TitleBoundaryValues(Object, Object, IntPtr*)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "Test Case title boundary values\n",
+  "steps": [
+    {
+      "name": "TitleBoundaryValues(249)",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at DiplomaProject.Pages.TestCasesPage.ClickAddCaseLink() in /Users/ilyayarosh/RiderProjects/Diploma/DiplomaProject/Pages/TestCasesPage.cs:line 58\n   at DiplomaProject.Pages.TestCasesPage.CreateTestCaseByTitle(String name) in /Users/ilyayarosh/RiderProjects/Diploma/DiplomaProject/Pages/TestCasesPage.cs:line 79\n   at DiplomaProject.Tests.UI.PositiveTests.BoundaryValuesTest.TitleBoundaryValues(Int32 n) in /Users/ilyayarosh/RiderProjects/Diploma/DiplomaProject/Tests/UI/PositiveTests/BoundaryValuesTest.cs:line 23\n   at InvokeStub_BoundaryValuesTest.TitleBoundaryValues(Object, Object, IntPtr*)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot",
+          "source": "dd80992865e54eff8b4ae65d9478cd2c-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "60739d88534440c28a7eeac42df5d06f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691585881278,
+      "stop": 1691585891883
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "249"
+    }
+  ],
+  "start": 1691585881278,
+  "stop": 1691585891883
+}

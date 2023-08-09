@@ -1,0 +1,95 @@
+{
+  "uuid": "9ea0747a-269b-4e5d-b1f8-3026f4a4e068-tr-0-1015",
+  "historyId": "DiplomaProject.Tests.UI.PositiveTests.MilestoneCreationTest.NewMilestoneCreation",
+  "fullName": "DiplomaProject.Tests.UI.PositiveTests.MilestoneCreationTest.NewMilestoneCreation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ilyas-macbook-pro"
+    },
+    {
+      "name": "package",
+      "value": "DiplomaProject.Tests.UI.PositiveTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "NewMilestoneCreation"
+    },
+    {
+      "name": "testClass",
+      "value": "MilestoneCreationTest"
+    },
+    {
+      "name": "tag",
+      "value": "Positive cases"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Admin"
+    },
+    {
+      "name": "suite",
+      "value": "Positive Cases Suit"
+    },
+    {
+      "name": "subSuite",
+      "value": "GUI"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    }
+  ],
+  "links": [
+    {
+      "name": "11",
+      "url": "https://yarashdiploma.testrail.io/index.php?/cases/view/11",
+      "type": "tms"
+    }
+  ],
+  "name": "NewMilestoneCreation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "NewMilestoneCreation"
+  },
+  "stage": "finished",
+  "description": "Test case to check that the new Milestone is created\n",
+  "steps": [
+    {
+      "name": "NewMilestoneCreation",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "49ccaf5d510544b791fd13d95fb012a5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1691586925742,
+      "stop": 1691586933529
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691586925742,
+  "stop": 1691586933529
+}

@@ -47,7 +47,7 @@
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
       <None Remove="TestData\SiteTestData.json" />
-      <Content Include="TestData\SiteTestData.json">
+      <Content Include="TestData\SuiteTestData.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
     </ItemGroup>

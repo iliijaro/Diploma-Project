@@ -53,7 +53,8 @@ public class TestCasesPage : BasePage
     {
         LoggerHelper.LogEventAll("'Add Test Case' link button is clicked");
         Wait.GetVisibleElement(By.CssSelector("a.link[onclick*='App.Cases.add']"));
-        AddTestCaseLink.Click();
+        
+        AddTestCaseLink.HoverAndClick();
     }
     
     private void NameTheTestCase(string name)
